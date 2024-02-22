@@ -1,0 +1,7 @@
+cd /var/www/html/
+unzip phpMy....
+sudo apt install unzip
+rm -r phpMy....
+mv phpMy... phpmyadmin
+sudo apt install php-mysqli
+sudo service apache2 restart

@@ -1,0 +1,6 @@
+cd /
+cd var
+cd www
+cd html
+
+sudo nano index2.html

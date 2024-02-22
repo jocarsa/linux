@@ -1,0 +1,6 @@
+sudo service apache2 restart
+
+sudo = Super User DO
+service = quiero operar sobre un servicio
+apache2 = nombre del servicio sobre el que quiero operar
+restart = operación

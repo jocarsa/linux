@@ -1,0 +1,8 @@
+<p>Soy el contenido del blog</p>
+
+<article *ngFor="let entrada of jsonData">
+    <h3>{{entrada.titulo}}</h3>
+    <time>{{entrada.fecha}}</time>
+    <p>{{entrada.contenido}}</p>
+    <div class='clearfix'></div>
+</article>

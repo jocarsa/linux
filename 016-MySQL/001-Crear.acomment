@@ -1,0 +1,6 @@
+CREATE DATABASE blog;
+USE blog;
+
+CREATE TABLE `blog`.`entradas` (`Identificador` INT NOT NULL AUTO_INCREMENT , `titulo` VARCHAR(200) NOT NULL , `contenido` TEXT NOT NULL , `fecha` DATE NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
+
+INSERT INTO `entradas` (`Identificador`, `titulo`, `contenido`, `fecha`) VALUES (NULL, 'Primera entrada', 'Este es su texto', '2024-02-22');

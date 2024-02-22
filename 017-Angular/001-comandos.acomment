@@ -1,0 +1,6 @@
+ng new proyecto --standalone false
+cd proyecto
+ng generate component blog  --standalone false
+ng generate service datos
+ng serve
+ng build

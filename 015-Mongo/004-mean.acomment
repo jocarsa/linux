@@ -1,0 +1,6 @@
+mkdir mean
+cd mean
+
+node servidor.js
+npm install express
+npm install mongodb

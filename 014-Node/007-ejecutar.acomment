@@ -1,0 +1,9 @@
+node servidor.js
+
+npm install express
+
+sudo apt install npm
+
+npm install express
+
+node servidor.js

@@ -1,0 +1,19 @@
+use blog;
+
+db.createCollection("entradas");
+
+db.entradas.insertOne({
+    "titulo":"Entrada 1",
+    "contenido":"Este es el contenido de la entrada",
+    "fecha":"2024-02-22"
+    });
+    
+db.entradas.find();
+
+exit();
+
+db.entradas.insertOne({
+    "titulo":"Entrada 2",
+    "contenido":"Este es el contenido de la segunda entrada",
+    "fecha":"2024-02-23"
+    });

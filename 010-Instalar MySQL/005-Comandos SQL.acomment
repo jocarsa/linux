@@ -1,0 +1,8 @@
+SHOW DATABASES;
+CREATE DATABASE josevicente;
+USE josevicente;
+SHOW TABLES;
+CREATE USER 'josevicente'@'localhost' IDENTIFIED BY 'JoseVicente123$';
+GRANT ALL PRIVILEGES ON *.* TO 'josevicente'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+exit;

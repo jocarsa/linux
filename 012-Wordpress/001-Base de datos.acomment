@@ -1,0 +1,3 @@
+CREATE DATABASE wordpress;
+CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'Wordpress123$';
+GRANT ALL PRIVILEGES ON *.wordpress TO 'wordpress'@'localhost' WITH GRANT OPTION;

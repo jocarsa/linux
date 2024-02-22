@@ -1,0 +1,6 @@
+sudo apt install net-tools
+
+sudo = Super User DO
+apt = programa para instalar otros programas
+install = acción que se va a ejecutar
+net-tools = paquete que se va a instalar
